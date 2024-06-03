@@ -195,14 +195,15 @@ body {
     border-width: 1px;
 }
 
-.apresentacao__portfolio:hover {
-    background-color: var(--cor-hover);
-}
-
 .apresentacao__subtitulo__projetos {
     font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #010504;
 }
 
+.apresentacao__subtitulo__projetos:hover{
+    color: #4C5958;
+}
 .tags {
     display: flex;
     align-items: center;
